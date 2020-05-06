@@ -1,0 +1,31 @@
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: lightpink;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .welcome-user{
+      position: absolute;
+      right: 70px;
+  }
+
+  .user-profile{
+    position: absolute;
+    right: 30px;
+  }
+
+  .user-profile:hover {
+    opacity: 0.8;
+  }
