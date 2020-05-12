@@ -12,4 +12,8 @@ export class SignInComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  signIn(username: HTMLTextAreaElement,password: HTMLTextAreaElement) {
+    // alert(username.value + password.value);
+  }
+
 }

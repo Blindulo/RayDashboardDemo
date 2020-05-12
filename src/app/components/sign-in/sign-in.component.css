@@ -1,5 +1,5 @@
-
-.signIn-container{
+ 
+mat-card{
     border: 1px solid lightpink;
     width: 50%;
     height: 50%;
@@ -9,60 +9,33 @@
     transform: translate(-50%,-50%);
 }
 
-.signIn-input{
-    padding-left: 15px;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid lightpink;
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%,-50%);
-    width: 60%;
-    font-size: 1em;
-}
-
-.signIn-input:focus{
-    border-bottom: 2px solid lightpink;
-}
-
-.user-profile{
-    position: absolute;
-    left: 20%;
-    top: 40%;
-    transform: translate(0%,-50%);
-    color: #ffb6c1;
-}
-
-.fa-unlock{
-    position: absolute;
-    left: 20%;
-    top: 60%;
-    transform: translate(0%,-50%);
-    color: #ffb6c1;
-}
-
-
-.btn{
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    transform: translate(-50%,-50%);
-    width: 60%;
-}
-
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn.active.focus {
-    outline: none;          
-}
 
 img{
     position: absolute;
     left: 50%;
     top: 0%;
     transform: translate(-50%);
+}
+
+mat-form-field {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+
+}
+
+.password{
+    top: 60%;
+}
+
+button{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border: 1px solid lightpink !important;
+    outline: none !important;
 }

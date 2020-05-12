@@ -1,15 +1,29 @@
-<!-- <app-head></app-head> -->
 
-<div class="signIn-container">
-    <img
-    width="100"
-    alt="Ray Logo"
-    src="../assets/images/Ray.png"
-  /> 
-  <form>
-  <input type="text" class="signIn-input"> <i class="fa fa-user user-profile"></i> 
-  <input type="password" class="signIn-input" style="top:60%"> <i class="fa fa-unlock"></i>
-    <button type="submit" class="btn btn-outline-primary">Sign In</button>
-  </form>
-    </div>
+
+   
+<mat-card>
+  <img
+  width="100"
+  alt="Ray Logo"
+  src="../assets/images/Ray.png"
+/> 
+  <mat-form-field class="example-form-field">
+    <mat-label>Username</mat-label>
+    <input matInput type="text" #username>
+  </mat-form-field>
+
+
+    <mat-form-field class="example-form-field password">
+    <mat-label>Password</mat-label>
+    <input matInput type="password" #password>
+   
+</mat-form-field>
+
+<button mat-stroked-button (click)="signIn(username,password)" color="primary">Sign In</button>
+</mat-card>
+  <!-- <form>
+  <input type="text" class="signIn-input" placeholder="Username" #username> <i class="fa fa-user user-profile"></i> 
+  <input type="password" class="signIn-input" style="top:60%" placeholder="Password" #password> <i class="fa fa-unlock"></i>
+    <button (click)="signIn(username,password)" class="btn btn-outline-primary">Sign In</button>
+  </form>-->
     
